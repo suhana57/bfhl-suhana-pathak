@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API = "https://bfhl-suhana-pathak.onrender.com/bfhl";
+const API = "https://bfhl-suhana-pathak.onrender.com";
 
 export default function CreateTicket({ onCreated, onClose }) {
     const [form, setForm] = useState({ subject: "", description: "", customerEmail: "", priority: "low" });

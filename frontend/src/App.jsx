@@ -5,7 +5,7 @@ import StatsStrip from "./components/StatsStrip";
 import Filters from "./components/Filters";
 import "./App.css";
 
-const API = "https://bfhl-suhana-pathak.onrender.com/";
+const API = "https://bfhl-suhana-pathak.onrender.com";
 
 export default function App() {
   const [tickets, setTickets] = useState([]);
